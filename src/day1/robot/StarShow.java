@@ -1,5 +1,7 @@
 package day1.robot;
 
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction;
+
 import org.jointheleague.graphical.robot.Robot;
 
 /*** Teacher's note ***/
@@ -50,7 +52,7 @@ public class StarShow {
 		// 4. Repeat both commands 5 times. See Figure 1 at http://bit.ly/star-show
 
 			// 1. Move the robot the distance of the starSize variable
-	
+			robot.move(starSize);
 			// 3. Turn the robot 144 degrees
 			
 	}
